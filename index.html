@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <!--The CSS name for Poppins is just "Poppins". For Lato is it "Lato"-->
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <title>Money Made Simple</title>
 </head>
 <body>
-    <p>Carter Manwaring's website</p>
+    <header>
+        <img src="images/logo.png" alt="logo">
+        <nav>
+            <p>Home</p>
+            <p>Budgeting Basics</p>
+            <p>Investing 101</p>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <img src="images/home-hero.png" alt="stack of coins getting taller from left to right">
+            <h1>Money Made Simple</h1>
+            <p>Money tips for college students, without the boring finance talk.</p>
+        </section>
+
+        <section id="why-i-started">
+            <h2>Why I Started This Site</h2>
+            <p>Most of us head off to college without ever being taught how money works. Then the first credit 
+                card offer shows up, rent is due, and we end up figuring it out as we go. I'm a college student too, 
+                and I've spent a lot of time learning about budgeting and investing on my own. This site is basically 
+                everything I wish someone had told me when I started.</p>
+        </section>
+
+        <section id="image-card">
+            <img src="images/home-compound.png" alt="Line chart comparing $100 a month invested starting at age 20 versus age 30">
+        </section>
+
+        <section id="start-early">
+            <h2>Start Early, Even With a Little</h2>
+            <p>You don't need a ton of money to start. What you really need is time. When you invest, your money makes money, 
+                and then that money starts making money too. That's called compound growth, and the earlier you start, the 
+                better it works.
+                Here's an example. Two people each put in $100 a month and earn about 7% a year until they're 65. One starts 
+                at 20 and ends up with around $379,000. The other waits until 30 and ends up with around $180,000. The first 
+                person only put in $12,000 more, but ended up with about twice as much. Real returns go up and down every year, 
+                so this is just an example. Still, the point is pretty clear. Start early.</p>
+        </section>
+
+        <section class="card">
+            <h3>Budgeting Basics</h3>
+            <p>Learn how to make a budget on a student income, build an emergency fund, and use credit cards without getting burned.</p>
+            <form action="budgeting_basics.html" target="_blank">
+                <button type="submit" class="button">Start Budgeting</button>
+            </form>
+        </section>
+
+        <section class="card">
+            <h3>Investing 101</h3>
+            <p>Find out what index funds are, how a Roth IRA works, and which rookie mistakes to stay away from.</p>
+            <form action="investing_101.html" target="_blank">
+                <button type="submit" class="button">Start Investing</button>
+            </form>
+        </section>
+
+        <section id="quick-note">
+            <h2>A Quick Note</h2>
+            <p>Just so you know, I'm a student, not a financial advisor. Everything here is for learning. Do your own research 
+                before making any big money moves, and talk to a pro if you're not sure.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Money Made Simple | Created by Carter Manwaring |</p>
+        <a href="index.html" target="_blank">Home</a>
+        <p> | </p>
+        <a href="budgeting_basics.html" target="_blank">Budgeting Basics</a>
+        <p> | </p>
+        <a href="investing_101.html" target="_blank">Investing 101</a>
+    </footer>
 </body>
 </html>
